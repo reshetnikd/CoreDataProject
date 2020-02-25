@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35212F3A2405B92400D49DA4 /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35212F382405B92400D49DA4 /* Singer+CoreDataClass.swift */; };
+		35212F3B2405B92400D49DA4 /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35212F392405B92400D49DA4 /* Singer+CoreDataProperties.swift */; };
 		356DA0A52404465700ED7835 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356DA0A42404465700ED7835 /* AppDelegate.swift */; };
 		356DA0A72404465700ED7835 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356DA0A62404465700ED7835 /* SceneDelegate.swift */; };
 		356DA0AA2404465700ED7835 /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 356DA0A82404465700ED7835 /* CoreDataProject.xcdatamodeld */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35212F382405B92400D49DA4 /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		35212F392405B92400D49DA4 /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		356DA0A12404465700ED7835 /* CoreDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		356DA0A42404465700ED7835 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		356DA0A62404465700ED7835 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 		356DA0A32404465700ED7835 /* CoreDataProject */ = {
 			isa = PBXGroup;
 			children = (
+				35212F382405B92400D49DA4 /* Singer+CoreDataClass.swift */,
+				35212F392405B92400D49DA4 /* Singer+CoreDataProperties.swift */,
 				356DA0BB24044B8700ED7835 /* Movie+CoreDataClass.swift */,
 				356DA0BC24044B8700ED7835 /* Movie+CoreDataProperties.swift */,
 				356DA0A42404465700ED7835 /* AppDelegate.swift */,
@@ -155,10 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35212F3A2405B92400D49DA4 /* Singer+CoreDataClass.swift in Sources */,
 				356DA0A52404465700ED7835 /* AppDelegate.swift in Sources */,
 				356DA0A72404465700ED7835 /* SceneDelegate.swift in Sources */,
 				356DA0AC2404465700ED7835 /* ContentView.swift in Sources */,
 				356DA0BD24044B8700ED7835 /* Movie+CoreDataClass.swift in Sources */,
+				35212F3B2405B92400D49DA4 /* Singer+CoreDataProperties.swift in Sources */,
 				356DA0BE24044B8700ED7835 /* Movie+CoreDataProperties.swift in Sources */,
 				356DA0AA2404465700ED7835 /* CoreDataProject.xcdatamodeld in Sources */,
 			);
